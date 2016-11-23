@@ -7,7 +7,8 @@
     "sync": "node ./scripts/sync.js",
     "build": "node ./scripts/build.js",
     "update_patches": "node ./scripts/update_patches.js",
-    "start": "node ./scripts/start.js"
+    "start": "node ./scripts/start.js",
+    "create_dist": "python ./src/electron/script/create-dist.py"
   },
   "engines" : {
     "node": "^7.0.0",
